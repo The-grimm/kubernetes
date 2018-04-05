@@ -1,0 +1,9 @@
+-->A ReplicaSet (rs) is the next-generation ReplicationController. ReplicaSets support both equality- and set-based Selectors, 
+    whereas ReplicationControllers only support equality-based Selectors. Currently, this is the only difference.
+    
+-->Equality-Based Selectors:
+      Equality-Based Selectors allow filtering of objects based on label keys and values. With this type of Selectors, 
+      we can use the =, ==, or != operators. For example, with env==dev we are selecting the objects where the env label is set to dev. 
+   Set-Based Selectors:
+      Set-Based Selectors allow filtering of objects based on a set of values. With this type of Selectors, we can use the in, notin, 
+      and exist operators. For example, with env in (dev,qa), we are selecting objects where the env label is set to dev or qa.
