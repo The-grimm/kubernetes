@@ -1,6 +1,6 @@
 1. $ kubectl create -f rsvp-db.yaml
 
-2.create a Service named mongodb to access the backend:
+2. create a Service named mongodb to access the backend:
   $ kubectl create -f rsvp-db-service.yaml
   
 3. $ kubectl create -f rsvp-web.yaml
